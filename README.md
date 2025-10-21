@@ -12,11 +12,3 @@
 
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
-
----
-
-### Notes
-- If any image doesn't show, rename it to a simple name (letters, numbers, dashes/underscores) and update the name above.
-- Examples to rename:
-  - `-let's_do_a_practice_round.jpg` → `lets_do_a_practice_round.jpg`
-  - `-how_do_you_think_this_person_was_feeling?.jpg` → `how_do_you_think_this_person_was_feeling.jpg`

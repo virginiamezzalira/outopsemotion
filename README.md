@@ -1,0 +1,1 @@
+# OutOps Emotion assets

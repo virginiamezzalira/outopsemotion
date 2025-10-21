@@ -1,7 +1,22 @@
 # OutOps Emotion assets
-<img width="262" height="35" alt="-could_you_tell_me_why_   (1)" src="https://github.com/user-attachments/assets/ccb84fa3-0f34-458f-a566-f2fadf8024c3" />
-<img width="279" height="20" alt="-goal (1)" src="https://github.com/user-attachments/assets/b8560f96-a076-4316-8faf-799d5b71a3e1" />
-<img width="279" height="20" alt="-goal (2)" src="https://github.com/user-attachments/assets/0dbbfa92-b534-4a7f-8e2d-e4582b56fce1" />
-[1.mp3](https://github.com/user-attachments/files/23030043/1.mp3)
-[thank_you.mp3](https://github.com/user-attachments/files/23030045/thank_you.mp3)
-[1 (2).mp3](https://github.com/user-attachments/files/23030047/1.2.mp3)
+
+## Images
+![Accept](Accept.png)
+![Reject](Reject.png)
+![Mood Meter (general)](MoodMeter_General.jpg)
+![Intro: Accept](Intro_3-3_Accept.jpg)
+![Intro: Accept/Reject](Intro_3-3_AcceptReject.jpg)
+![Neutral 3-3 Offer](Neutral_3-3_Offer.jpg)
+![Red + Blue players](red_blue_players.jpg)
+![Purple player](purple_player.jpg)
+
+## Audio (click to play/download)
+[1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
+
+---
+
+### Notes
+- If any image doesn't show, rename it to a simple name (letters, numbers, dashes/underscores) and update the name above.
+- Examples to rename:
+  - `-let's_do_a_practice_round.jpg` → `lets_do_a_practice_round.jpg`
+  - `-how_do_you_think_this_person_was_feeling?.jpg` → `how_do_you_think_this_person_was_feeling.jpg`

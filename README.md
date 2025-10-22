@@ -13,7 +13,12 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
-https://github.com/user-attachments/assets/adf1d8e7-1c71-4af2-a854-88762bc228aa ](https://virginiamezzalira.github.io/outopsemotion/intro.mp4)
+<video controls width="720" preload="metadata" playsinline>
+  <source src="intro.mp4" type="video/mp4">
+  Sorry—your browser can’t play this video. <a href="intro.mp4">Download it</a>.
+</video>
+
+
 
 
 

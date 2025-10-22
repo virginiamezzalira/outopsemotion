@@ -13,12 +13,6 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
-{% raw %}
-<video controls width="720" preload="metadata" playsinline style="max-width:100%;height:auto;">
-  <source src="intro.mp4" type="video/mp4">
-  Sorry—can’t play this video. <a href="intro.mp4">Download it</a>.
-</video>
-{% endraw %}
 
 
 

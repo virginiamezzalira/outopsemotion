@@ -14,9 +14,9 @@
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
 <video controls width="720" preload="metadata" playsinline>
-  <source src="intro.mp4" type="video/mp4">
-  Sorry—your browser can’t play this video. <a href="intro.mp4">Download it</a>.
+ <source src="intro.mp4" type="video/mp4">
 </video>
+
 
 
 

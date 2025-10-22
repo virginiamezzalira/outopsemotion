@@ -15,10 +15,9 @@
 
 <img width="1397" height="776" alt="thumbnailpicschool" src="https://github.com/user-attachments/assets/ec1b7be3-9291-4bd2-ad1a-6cb61991d179" />
 
-<video controls width="720" poster="{{ '/thumbnailpicschool.png' | relative_url }}">
-  <source src="{{ '/intro.mp4' | relative_url }}" type="video/mp4">
-  Sorry, your browser doesn't support embedded videos.
-</video>
+https://github.com/user-attachments/assets/1e6bf164-a021-4b75-b206-110e0ec5ded5
+
+
 
 
 

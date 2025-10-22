@@ -1,38 +1,13 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Video Demo</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:2rem;}
-    .wrap{max-width:960px;margin:auto}
-    .thumb{display:block;max-width:100%;height:auto;border-radius:12px}
-    .sp{height:16px}
-    video{max-width:100%;border-radius:12px}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <h1>Watch the video</h1>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video Demo</title>
 
-    <!-- Clickable thumbnail -->
-    <a href="{{ '/intro.mp4' | relative_url }}">
-      <img class="thumb" src="{{ '/thumbnailpicschool.png' | relative_url }}" alt="Watch the video" />
-    </a>
+<!-- Clickable text link (ABSOLUTE to the project path) -->
+<p><a href="/outopsemotion/intro.mp4">Watch the video</a></p>
 
-    <div class="sp"></div>
-
-    <!-- Inline player -->
-    <video controls preload="metadata" poster="{{ '/thumbnailpicschool.png' | relative_url }}">
-      <source src="{{ '/intro.mp4' | relative_url }}" type="video/mp4" />
-      Your browser can’t play the video. 
-      <a href="{{ '/intro.mp4' | relative_url }}">Open it directly</a>.
-    </video>
-
-    <noscript>
-      JavaScript is disabled. <a href="{{ '/intro.mp4' | relative_url }}">Open the video</a>.
-    </noscript>
-  </div>
-</body>
-</html>
+<!-- Inline player (ABSOLUTE to the project path) -->
+<video controls preload="metadata" poster="/outopsemotion/thumbnailpicschool.png" style="max-width:720px;display:block;border-radius:12px">
+  <source src="/outopsemotion/intro.mp4" type="video/mp4">
+  Can’t load inline. <a href="/outopsemotion/intro.mp4">Open the video</a>.
+</video>

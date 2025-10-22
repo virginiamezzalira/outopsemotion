@@ -13,8 +13,6 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
-<img width="1397" height="776" alt="thumbnailpicschool" src="https://github.com/user-attachments/assets/ec1b7be3-9291-4bd2-ad1a-6cb61991d179" />
-
 https://github.com/user-attachments/assets/1e6bf164-a021-4b75-b206-110e0ec5ded5
 
 

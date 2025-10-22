@@ -13,10 +13,9 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
-<video controls poster="{{ site.baseurl }}/assets/thumbnailpicschool.png" width="720">
-  <source src="{{ site.baseurl }}/assets/intro.mp4" type="video/mp4">
-  Sorry, your browser doesn't support embedded videos.
-</video>
+<img width="1397" height="776" alt="thumbnailpicschool" src="https://github.com/user-attachments/assets/ec1b7be3-9291-4bd2-ad1a-6cb61991d179" />
+
+
 
 
 

@@ -13,6 +13,9 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
+[![Watch the video](https://raw.githubusercontent.com/virginiamezzalira/outopsemotion/main/path/to/thumbnailpicschool.png)](https://raw.githubusercontent.com/virginiamezzalira/outopsemotion/main/path/to/intro.mp4)
+
+
 
 
 

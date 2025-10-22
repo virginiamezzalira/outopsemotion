@@ -15,6 +15,7 @@
 
 <img width="1397" height="776" alt="thumbnailpicschool" src="https://github.com/user-attachments/assets/ec1b7be3-9291-4bd2-ad1a-6cb61991d179" />
 
+[![Watch the video]({{ '/thumbnailpicschool.png' | relative_url }})]({{ '/intro.mp4' | relative_url }})
 
 
 

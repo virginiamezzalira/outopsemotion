@@ -13,7 +13,10 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
-[![Watch the video](https://raw.githubusercontent.com/virginiamezzalira/outopsemotion/main/path/to/thumbnailpicschool.png)](https://raw.githubusercontent.com/virginiamezzalira/outopsemotion/main/path/to/intro.mp4)
+<video controls poster="{{ site.baseurl }}/assets/thumbnailpicschool.png" width="720">
+  <source src="{{ site.baseurl }}/assets/intro.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+</video>
 
 
 

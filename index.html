@@ -17,7 +17,7 @@
     <h1>Watch the video</h1>
 
     <!-- Clickable thumbnail -->
-    <a href="{{ '/intro.2.mp4' | relative_url }}">
+    <a href="{{ '/intro.mp4' | relative_url }}">
       <img class="thumb" src="{{ '/thumbnailpicschool.png' | relative_url }}" alt="Watch the video" />
     </a>
 
@@ -25,13 +25,13 @@
 
     <!-- Inline player -->
     <video controls preload="metadata" poster="{{ '/thumbnailpicschool.png' | relative_url }}">
-      <source src="{{ '/intro.2.mp4' | relative_url }}" type="video/mp4" />
+      <source src="{{ '/intro.mp4' | relative_url }}" type="video/mp4" />
       Your browser can’t play the video. 
-      <a href="{{ '/intro.2.mp4' | relative_url }}">Open it directly</a>.
+      <a href="{{ '/intro.mp4' | relative_url }}">Open it directly</a>.
     </video>
 
     <noscript>
-      JavaScript is disabled. <a href="{{ '/intro.2.mp4' | relative_url }}">Open the video</a>.
+      JavaScript is disabled. <a href="{{ '/intro.mp4' | relative_url }}">Open the video</a>.
     </noscript>
   </div>
 </body>

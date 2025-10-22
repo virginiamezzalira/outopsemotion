@@ -13,6 +13,7 @@
 ## Audio (click to play/download)
 [1.mp3](1.mp3) • [2.mp3](2.mp3) • [3.mp3](3.mp3) • [4.mp3](4.mp3) • [5.mp3](5.mp3)
 
+[![Watch the video](thumbnailpicschool.png)](https://virginiamezzalira.github.io/outopsemotion/)
 https://github.com/user-attachments/assets/1e6bf164-a021-4b75-b206-110e0ec5ded5
 
 

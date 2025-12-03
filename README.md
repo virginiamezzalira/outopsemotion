@@ -17,7 +17,7 @@
 
 # OutOps Emotion – Practice Repository
 
-This repository contains a practice set of visual, audio, and video stimuli used to learn how to organise mixed-media research assets using GitHub.
+This repository contains a practice set of visual, audio, and video stimuli used to learn how to organise research material using GitHub.
 
 ### Folder Structure (click to view)
 
@@ -29,11 +29,11 @@ This repository contains a practice set of visual, audio, and video stimuli used
 
 This repo was created as a formative exercise to:
 - practise setting up a clean, reproducible folder structure  
-- work with different media types (images/audio/video)  
-- understand how GitHub Pages hosts and displays assets  
-- prepare for managing materials in real experimental projects  
+- work with different media types 
+- understand how GitHub Pages hosts and displays files  
+- prepare for managing materials in real projects  
 
 ### Note  
-These assets are not part of an active study.
+These files are not part of an active study.
 
 

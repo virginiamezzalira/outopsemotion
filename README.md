@@ -19,7 +19,7 @@
 
 This repository contains a practice set of visual, audio, and video stimuli used to learn how to organise mixed-media research assets using GitHub.
 
-### Folder Structure (Click to View)
+### Folder Structure (click to view)
 
 - [**images/**](images/) – visual stimuli  
 - [**audio/**](audio/) – audio files  

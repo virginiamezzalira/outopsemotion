@@ -15,7 +15,7 @@
 
 [![Watch the video](thumbnailpicschool.png)](https://virginiamezzalira.github.io/outopsemotion/)
 
-# OutOps Emotion – Study Assets
+# OutOps Emotion - Study Assets
 
 This repository hosts the stimuli used in the OutOps Emotion study.
 

@@ -15,42 +15,25 @@
 
 [![Watch the video](thumbnailpicschool.png)](https://virginiamezzalira.github.io/outopsemotion/)
 
-# OutOps Emotion - Study Assets
+# OutOps Emotion – Practice Repository
 
-This repository hosts the stimuli used in the OutOps Emotion study.
+This repository contains a practice set of visual, audio, and video stimuli used to learn how to organise mixed-media research assets using GitHub.
 
-## Folder structure
+### Folder Structure (Click to View)
 
-- `images/` – visual stimuli (offers, jars, mood meters)
-- `audio/` – audio files for task instructions and feedback
-- `video/` – introductory video clips
+- [**images/**](images/) – visual stimuli  
+- [**audio/**](audio/) – audio files  
+- [**video/**](video/) – video assets  
 
-## File naming conventions
-- `emotion_condition_type.jpg` (e.g., `angry_3-3_offer.jpg`)
-- `moodmeter_general.jpg` for mood meter stimuli
-- `*_jar_candies.jpg` for jar images
+### Purpose
 
-## Usage
-These assets are referenced in Qualtrics and in lab-based studies.  
+This repo was created as a formative exercise to:
+- practise setting up a clean, reproducible folder structure  
+- work with different media types (images/audio/video)  
+- understand how GitHub Pages hosts and displays assets  
+- prepare for managing materials in real experimental projects  
 
----
-
-*Maintained by Virginia Mezzalira.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Note  
+These assets are not part of an active study.
 
 

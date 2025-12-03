@@ -4,9 +4,9 @@ This repository contains a practice set of visual, audio, and video stimuli used
 
 ### Folder Structure (click to view)
 
-- [**images/**](images/) – visual stimuli  
-- [**audio/**](audio/) – audio files  
-- [**video/**](video/) – video assets  
+- [**images/**](https://github.com/virginiamezzalira/outopsemotion/tree/main/images) – visual stimuli  
+- [**audio/**](https://github.com/virginiamezzalira/outopsemotion/tree/main/audio) – audio files  
+- [**video/**](https://github.com/virginiamezzalira/outopsemotion/tree/main/video) – video assets  
 
 ### Purpose
 

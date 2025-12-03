@@ -1,40 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>OutOps Emotion – Practice Repository</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.5;
+    }
+    h1, h2 {
+      margin-bottom: 0.25rem;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .folder-section {
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 0.2rem 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .loading, .error {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .error {
+      color: #b00020;
+    }
+    code {
+      background: #f6f8fa;
+      padding: 0.1rem 0.25rem;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
-
 <body>
+  <h1>OutOps Emotion – Practice Repository</h1>
+  <p>
+    This is a practice repository used to learn how to host and organise mixed-media research assets
+    (images, audio, and video) using GitHub and GitHub Pages.
+  </p>
 
-<h1>OutOps Emotion – Practice Repository</h1>
-<p>This is a practice repository used to learn how to host and organise mixed-media research assets.</p>
+  <p>
+    The lists below are built live from the GitHub API, so they always reflect the current contents
+    of the <code>images/</code>, <code>audio/</code> and <code>video/</code> folders on the
+    <code>main</code> branch.
+  </p>
 
-<h2>Folders</h2>
-<ul>
-  <li><a href="images/">Images</a></li>
-  <li><a href="audio/">Audio</a></li>
-  <li><a href="video/">Video</a></li>
-</ul>
+  <div class="folder-section">
+    <h2>Images</h2>
+    <div id="images-status" class="loading">Loading images…</div>
+    <ul id="images-list"></ul>
+  </div>
 
-<h2>Files in Images</h2>
-<ul>
-  <!-- GitHub Pages DOES show folder contents if you link directly to the folder -->
-  <li><a href="images/">Browse images folder</a></li>
-</ul>
+  <div class="folder-section">
+    <h2>Audio</h2>
+    <div id="audio-status" class="loading">Loading audio…</div>
+    <ul id="audio-list"></ul>
+  </div>
 
-<h2>Files in Audio</h2>
-<ul>
-  <li><a href="audio/">Browse audio folder</a></li>
-</ul>
+  <div class="folder-section">
+    <h2>Video</h2>
+    <div id="video-status" class="loading">Loading videos…</div>
+    <ul id="video-list"></ul>
+  </div>
 
-<h2>Files in Video</h2>
-<ul>
-  <li><a href="video/">Browse video folder</a></li>
-</ul>
+  <script>
+    const owner = "virginiamezzalira";
+    const repo = "outopsemotion";
+    const branch = "main";
 
-<p><em>Click a folder to see every file inside it.</em></p>
+    // Helper to load a folder from the GitHub API and populate a list
+    async function loadFolder(folderName, listId, statusId) {
+      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${folderName}?ref=${branch}`;
+      const listEl = document.getElementById(listId);
+      const statusEl = document.getElementById(statusId);
 
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        const items = await response.json();
+
+        // Clear loading text
+        statusEl.textContent = "";
+
+        if (!Array.isArray(items) || items.length === 0) {
+          statusEl.textContent = "No files found in this folder.";
+          return;
+        }
+
+        items
+          .filter(item => item.type === "file")
+          .forEach(item => {
+            const li = document.createElement("li");
+            const link = document.createElement("a");
+
+            // Link to the file served by GitHub Pages (same repo/branch)
+            link.href = `${folderName}/${item.name}`;
+            link.textContent = item.name;
+            link.target = "_blank";
+            li.appendChild(link);
+            listEl.appendChild(li);
+          });
+
+        if (!listEl.children.length) {
+          statusEl.textContent = "No files found in this folder.";
+        }
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "Error loading files for this folder.";
+        statusEl.classList.remove("loading");
+        statusEl.classList.add("error");
+      }
+    }
+
+    // Load all three folders
+    loadFolder("images", "images-list", "images-status");
+    loadFolder("audio", "audio-list", "audio-status");
+    loadFolder("video", "video-list", "video-status");
+  </script>
 </body>
 </html>
-
